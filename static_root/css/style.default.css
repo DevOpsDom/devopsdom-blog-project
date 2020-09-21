@@ -56,14 +56,14 @@ ul {
 }
 
 section {
-  padding: 100px 0;
+  padding: 80px 0;
   overflow-x: hidden;
 }
 
 button,
 input {
   outline: none !important;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Proxima Nova Rg';
 }
 
 button {
@@ -564,25 +564,25 @@ div[class*="-btn"] {
   padding: 10px 0;
   font-size: 1.6em;
   font-weight: 300;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Proxima Nova Rg';
 }
 
 .navbar .search-area-inner input::-moz-placeholder {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Proxima Nova Rg';
   color: #555;
   font-weight: 300;
   font-size: 1.1em;
 }
 
 .navbar .search-area-inner input::-webkit-input-placeholder {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Proxima Nova Rg';
   color: #555;
   font-weight: 300;
   font-size: 1.1em;
 }
 
 .navbar .search-area-inner input:-ms-input-placeholder {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Proxima Nova Rg';
   color: #555;
   font-weight: 300;
   font-size: 1.1em;
@@ -625,18 +625,33 @@ div[class*="-btn"] {
 *     HERO SECTION
 * ==========================================================
 */
-section.hero {
+/* section.hero {
   padding: 0;
   color: #fff;
-}
+} */
 
-section.hero .container {
+/* section.hero .container {
   padding: 200px 20px;
   position: relative;
+} */
+
+.hero {
+  padding-bottom: 50px;
 }
 
 section.hero h1 {
-  line-height: 1.2em;
+  line-height: 1.1em;
+  font-family: 'Proxima Nova Rg';
+  font-size: 50px;
+}
+
+section.hero h1 .hero-h {
+  color: rgb(78, 205 , 214)
+}
+
+section.newsletter p {
+  color: #54595f;
+  font-size: 20px;
 }
 
 section.hero .continue {
@@ -653,6 +668,8 @@ section.hero .continue {
 section.hero .continue i {
   margin-right: 5px;
 }
+
+
 
 /* Hero Section Media Query ------------------------------------- */
 @media (max-width: 767px) {
@@ -952,11 +969,11 @@ section.newsletter .form-group {
 section.newsletter input {
   width: 100%;
   height: 60px;
-  line-height: 60px;
+  line-height: 0px;
   padding: 0 15px;
   border: 1px solid #111;
   font-size: 1.1em;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Proxima Nova Rg';
   font-weight: 300;
 }
 
@@ -964,13 +981,13 @@ section.newsletter .submit {
   height: 60px;
   padding: 0 30px;
   line-height: 60px;
-  background: #111;
+  background: rgb(78, 205 , 214);
   border: 1px solid #111;
   color: #fff;
   position: absolute;
   top: 0;
   right: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Proxima Nova Rg';
 }
 
 /* Newsletter Section Media Query ------------------------------------- */
@@ -1052,16 +1069,20 @@ section.gallery .overlay i {
 * ==========================================================
 */
 footer.main-footer {
-  background: #0e0e0e;
+  background: rgb(78, 205 , 214);
   padding: 100px 0 0;
   color: #fff;
 }
 
 footer.main-footer .contact-details p {
+  padding: 5px;
   font-weight: 300;
   color: #fff;
-  margin-bottom: 5px;
-  font-size: 0.95em;
+  font-size: 1.1em;
+}
+
+footer.main-footer .text-white h2 {
+  padding: 50px;
 }
 
 footer.main-footer .contact-details a {
@@ -1182,24 +1203,24 @@ main.posts-listing .post-footer {
   border: none;
   border-bottom: 1px solid #ddd;
   font-size: 0.95em;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Proxima Nova Rg';
   font-weight: 400;
   background: none;
 }
 
 .widget.search input::-moz-placeholder {
   color: #aaa;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Proxima Nova Rg';
 }
 
 .widget.search input::-webkit-input-placeholder {
   color: #aaa;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Proxima Nova Rg';
 }
 
 .widget.search input:-ms-input-placeholder {
   color: #aaa;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Proxima Nova Rg';
 }
 
 .widget.search .submit {
@@ -1483,7 +1504,7 @@ main.posts-listing .post-footer {
   border-bottom: 1px solid #ddd;
   padding: 10px 0;
   border-radius: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Proxima Nova Rg';
 }
 
 .blog-post .add-comment input::-moz-placeholder,
@@ -1492,7 +1513,7 @@ main.posts-listing .post-footer {
   font-size: 0.9em;
   color: #aaa;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Proxima Nova Rg';
 }
 
 .blog-post .add-comment input::-webkit-input-placeholder,
@@ -1501,7 +1522,7 @@ main.posts-listing .post-footer {
   font-size: 0.9em;
   color: #aaa;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Proxima Nova Rg';
 }
 
 .blog-post .add-comment input:-ms-input-placeholder,
@@ -1510,7 +1531,7 @@ main.posts-listing .post-footer {
   font-size: 0.9em;
   color: #aaa;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Proxima Nova Rg';
 }
 
 .blog-post .add-comment input:focus,
@@ -1608,9 +1629,14 @@ STYLE SWITCHER FOR DEMO
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   margin-right: 1rem;
-  font-size: 1rem;
-  color: #333;
-  font-weight: bold;
+  font-size: 1.8rem;
+  color: rgb(78, 205 , 214);
+  font-family: 'Proxima Nova Rg';
+}
+
+.navbar-brand .navbar-dom {
+  font-family: 'Proxima Nova Th';
+  color: #000;
 }
 
 .navbar-toggler {
@@ -2215,7 +2241,7 @@ STYLE SWITCHER FOR DEMO
  * 3. TYPE
  */
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Proxima Nova Rg';
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
@@ -2249,8 +2275,10 @@ h6,
   font-family: inherit;
   font-weight: 700;
   line-height: 1.1;
-  color: inherit;
+  color: black;
 }
+
+
 
 h1,
 .h1 {
